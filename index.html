@@ -1,136 +1,513 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
-
-<meta charset="UTF-8">
-<title>BIO HEALTH</title>
-
-<link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIO HEALTH | Équipements Médicaux & Réactifs de Laboratoire</title>
+  <meta name="description" content="BIO HEALTH - Votre partenaire de confiance en équipements médicaux et réactifs de laboratoire en Tunisie">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <!-- Navigation -->
+  <header id="header">
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <span class="logo-bio">BIO</span>
+        <span class="logo-health">HEALTH</span>
+      </a>
+      <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#partenaires">Partenaires</a>
+        <a href="#produits">Produits</a>
+        <a href="#services">Services</a>
+        <a href="#blog">Actualités</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="mobile-menu-btn" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
 
-<header>
+  <!-- Hero Section with 3D DNA -->
+  <section id="accueil" class="hero">
+    <div id="dna-container"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <span class="title-bio">BIO</span>
+        <span class="title-health">HEALTH</span>
+      </h1>
+      <p class="hero-subtitle">Votre partenaire de confiance en équipements médicaux et réactifs de laboratoire</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">Demander un devis</a>
+        <a href="#produits" class="btn btn-secondary">Découvrir les produits</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <span>Défiler</span>
+    </div>
+  </section>
 
-<h1>BIO HEALTH</h1>
+  <!-- Partners Section -->
+  <section id="partenaires" class="partners-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Collaboration</span>
+        <h2 class="section-title">Nos partenaires de confiance</h2>
+        <p class="section-description">Nous collaborons avec les leaders mondiaux de l'industrie médicale</p>
+      </div>
+      <div class="partners-grid">
+        <div class="partner-card">
+          <div class="partner-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Stago_logo.svg/200px-Stago_logo.svg.png" alt="Diagnostica Stago" loading="lazy">
+          </div>
+          <h3>Diagnostica Stago</h3>
+          <p>Entreprise spécialisée dans les diagnostics de l'hémostase et de la thrombose depuis plus de 60 ans. Elle développe des solutions de diagnostic fiables pour les laboratoires du monde entier.</p>
+        </div>
+        <div class="partner-card">
+          <div class="partner-logo">
+            <img src="https://www.disera.com/wp-content/uploads/2020/11/logo-disera-1.png" alt="Disera Medical" loading="lazy">
+          </div>
+          <h3>Disera Medical</h3>
+          <p>Fabricant de produits médicaux innovants conçus pour améliorer les soins aux patients et la performance des laboratoires.</p>
+        </div>
+        <div class="partner-card">
+          <div class="partner-logo">
+            <img src="https://www.diagast.com/typo3conf/ext/diagast/Resources/Public/Images/diagast-logo.svg" alt="Diagast" loading="lazy">
+          </div>
+          <h3>Diagast</h3>
+          <p>Entreprise spécialisée dans les solutions d'immuno-hématologie et le groupage sanguin pour les laboratoires médicaux.</p>
+        </div>
+        <div class="partner-card">
+          <div class="partner-logo">
+            <img src="https://alcorscientific.com/wp-content/uploads/2020/03/alcor-logo.png" alt="Alcor Scientific" loading="lazy">
+          </div>
+          <h3>Alcor Scientific</h3>
+          <p>Concepteur d'instruments de diagnostic innovants destinés aux laboratoires médicaux.</p>
+        </div>
+        <div class="partner-card">
+          <div class="partner-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Sarstedt_logo.svg/200px-Sarstedt_logo.svg.png" alt="Sarstedt" loading="lazy">
+          </div>
+          <h3>Sarstedt</h3>
+          <p>Fabricant mondial d'équipements et consommables pour laboratoires et établissements de santé.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<nav>
+  <!-- Products Section -->
+  <section id="produits" class="products-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Catalogue</span>
+        <h2 class="section-title">Nos Produits</h2>
+        <p class="section-description">Équipements médicaux et réactifs de haute qualité</p>
+      </div>
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-image">
+            <div class="product-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2v-4M9 21H5a2 2 0 0 1-2-2v-4m0-6v6m18-6v6"/></svg>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>STA Satellite Max</h3>
+            <p>Analyseur destiné aux laboratoires réalisant des tests d'hémostase.</p>
+            <div class="product-price">1 500 TND</div>
+            <button class="btn btn-outline">Voir détails</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <div class="product-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>STA R Max3</h3>
+            <p>Système d'analyse de coagulation haute performance.</p>
+            <div class="product-price">1 600 TND</div>
+            <button class="btn btn-outline">Voir détails</button>
+          </div>
+        </div>
+        <div class="product-card featured">
+          <div class="product-badge">Populaire</div>
+          <div class="product-image">
+            <div class="product-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v20M2 12h20M6 6l12 12M18 6L6 18"/></svg>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>STA Compact Max3</h3>
+            <p>Analyseur avancé pour laboratoires de taille moyenne.</p>
+            <div class="product-price">3 500 TND</div>
+            <button class="btn btn-outline">Voir détails</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <div class="product-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>STart Max</h3>
+            <p>Analyseur semi-automatique avec écran tactile.</p>
+            <div class="product-price">2 000 TND</div>
+            <button class="btn btn-outline">Voir détails</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <div class="product-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.8 2.3A.3.3 0 1 0 5 2.9a.3.3 0 0 0-.2-.6M8 2H5a3 3 0 0 0-3 3v16a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3h-3m-3 15v-4m-3 4v-2m6 2v-6"/><circle cx="18" cy="18" r="4"/><path d="M18 16v4"/></svg>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>Moniteur de paramètres vitaux</h3>
+            <p>Système de surveillance en temps réel des signes vitaux.</p>
+            <div class="product-price">950 TND</div>
+            <button class="btn btn-outline">Voir détails</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <div class="product-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a3 3 0 0 0-3 3v4a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></svg>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>Stéthoscope électronique</h3>
+            <p>Stéthoscope numérique avec amplification du son.</p>
+            <div class="product-price">280 TND</div>
+            <button class="btn btn-outline">Voir détails</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <div class="product-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>Centrifugeuse de laboratoire</h3>
+            <p>Équipement pour la séparation des échantillons biologiques.</p>
+            <div class="product-price">850 TND</div>
+            <button class="btn btn-outline">Voir détails</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <div class="product-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2"/><path d="M8.5 2h7"/><path d="M7 16h10"/></svg>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>Set de micropipettes</h3>
+            <p>Outils de précision pour la manipulation de liquides.</p>
+            <div class="product-price">320 TND</div>
+            <button class="btn btn-outline">Voir détails</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <div class="product-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"/><path d="m8.5 8.5 7 7"/></svg>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>Kits de test rapide COVID-19</h3>
+            <p>Tests rapides pour la détection du virus.</p>
+            <div class="product-price">120 TND</div>
+            <button class="btn btn-outline">Voir détails</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <div class="product-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3h18v18H3zM21 9H3M21 15H3M12 3v18"/></svg>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>Pack de réactifs de laboratoire</h3>
+            <p>Réactifs de diagnostic haute précision.</p>
+            <div class="product-price">600 TND</div>
+            <button class="btn btn-outline">Voir détails</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<a href="#about">About</a>
-<a href="#products">Products</a>
-<a href="#partners">Partners</a>
-<a href="#contact">Contact</a>
+  <!-- Services Section -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Expertise</span>
+        <h2 class="section-title">Nos Services</h2>
+        <p class="section-description">Solutions complètes pour votre établissement de santé</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h3>Installation des équipements</h3>
+          <p>Installation professionnelle et mise en service de vos équipements médicaux par nos techniciens certifiés.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Formation du personnel</h3>
+          <p>Programmes de formation complets pour assurer une utilisation optimale de vos équipements.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </div>
+          <h3>Fourniture d'équipements</h3>
+          <p>Large gamme d'équipements médicaux de haute qualité pour tous types d'établissements de santé.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2"/><path d="M8.5 2h7"/><path d="M7 16h10"/></svg>
+          </div>
+          <h3>Distribution de réactifs</h3>
+          <p>Réactifs de laboratoire certifiés pour des résultats de diagnostic précis et fiables.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>
+          </div>
+          <h3>Support technique</h3>
+          <p>Assistance technique réactive et maintenance préventive pour garantir la continuité de vos opérations.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>
+          </div>
+          <h3>Consultation diagnostique</h3>
+          <p>Conseils d'experts pour optimiser vos solutions de diagnostic et améliorer vos processus.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-</nav>
+  <!-- Blog Section -->
+  <section id="blog" class="blog-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Actualités</span>
+        <h2 class="section-title">Blog & Actualités</h2>
+        <p class="section-description">Restez informé des dernières innovations médicales</p>
+      </div>
+      <div class="blog-grid">
+        <article class="blog-card">
+          <div class="blog-image">
+            <div class="blog-date">
+              <span class="day">15</span>
+              <span class="month">Mar</span>
+            </div>
+          </div>
+          <div class="blog-content">
+            <h3>Les innovations technologiques dans le secteur médical</h3>
+            <p>Découvrez les dernières avancées technologiques qui transforment le secteur de la santé et améliorent les soins aux patients.</p>
+            <a href="#" class="blog-link">Lire la suite <span>&rarr;</span></a>
+          </div>
+        </article>
+        <article class="blog-card">
+          <div class="blog-image">
+            <div class="blog-date">
+              <span class="day">12</span>
+              <span class="month">Mar</span>
+            </div>
+          </div>
+          <div class="blog-content">
+            <h3>Les équipements médicaux de demain</h3>
+            <p>Un aperçu des équipements médicaux de nouvelle génération et leur impact sur la pratique clinique.</p>
+            <a href="#" class="blog-link">Lire la suite <span>&rarr;</span></a>
+          </div>
+        </article>
+        <article class="blog-card">
+          <div class="blog-image">
+            <div class="blog-date">
+              <span class="day">08</span>
+              <span class="month">Mar</span>
+            </div>
+          </div>
+          <div class="blog-content">
+            <h3>Comment choisir le bon équipement médical</h3>
+            <p>Guide pratique pour sélectionner les équipements adaptés aux besoins spécifiques de votre établissement.</p>
+            <a href="#" class="blog-link">Lire la suite <span>&rarr;</span></a>
+          </div>
+        </article>
+        <article class="blog-card">
+          <div class="blog-image">
+            <div class="blog-date">
+              <span class="day">03</span>
+              <span class="month">Mar</span>
+            </div>
+          </div>
+          <div class="blog-content">
+            <h3>L'importance de l'entretien des équipements médicaux</h3>
+            <p>Pourquoi la maintenance régulière est essentielle pour la fiabilité et la longévité de vos équipements.</p>
+            <a href="#" class="blog-link">Lire la suite <span>&rarr;</span></a>
+          </div>
+        </article>
+        <article class="blog-card">
+          <div class="blog-image">
+            <div class="blog-date">
+              <span class="day">28</span>
+              <span class="month">Fév</span>
+            </div>
+          </div>
+          <div class="blog-content">
+            <h3>Les nouvelles réglementations dans le secteur médical</h3>
+            <p>Comprendre les dernières réglementations et normes qui régissent l'industrie des équipements médicaux.</p>
+            <a href="#" class="blog-link">Lire la suite <span>&rarr;</span></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
 
-</header>
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Contact</span>
+        <h2 class="section-title">Contactez-nous</h2>
+        <p class="section-description">Nous sommes à votre disposition pour répondre à vos questions</p>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <div class="info-card">
+            <div class="info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="info-content">
+              <h4>Adresse</h4>
+              <p>Megrine<br>226 Avenue Ahmed Tlili<br>Ben Arous 2024, Tunisie</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div class="info-content">
+              <h4>Téléphone</h4>
+              <p><a href="tel:+21629368222">+216 29 368 222</a></p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </div>
+            <div class="info-content">
+              <h4>Email</h4>
+              <p><a href="mailto:contact@bio-health.tn">contact@bio-health.tn</a></p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="info-content">
+              <h4>Heures d'ouverture</h4>
+              <p>Lundi - Vendredi: 8:00 - 17:00<br>Samedi: 8:00 - 12:00</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrapper">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Nom complet</label>
+              <input type="text" id="name" name="name" required placeholder="Votre nom">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="votre@email.com">
+            </div>
+            <div class="form-group">
+              <label for="phone">Téléphone</label>
+              <input type="tel" id="phone" name="phone" placeholder="+216 XX XXX XXX">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Votre message..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Envoyer le message</button>
+          </form>
+        </div>
+      </div>
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3195.0!2d10.2339!3d36.7678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDQ2JzA0LjEiTiAxMMKwMTQnMDIuMCJF!5e0!3m2!1sfr!2stn!4v1710000000000!5m2!1sfr!2stn"
+          width="100%" 
+          height="400" 
+          style="border:0; border-radius: 16px;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
 
-<section class="hero">
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <span class="logo-bio">BIO</span>
+            <span class="logo-health">HEALTH</span>
+          </a>
+          <p>Votre partenaire de confiance en équipements médicaux et réactifs de laboratoire en Tunisie.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <a href="#accueil">Accueil</a>
+          <a href="#partenaires">Partenaires</a>
+          <a href="#produits">Produits</a>
+          <a href="#services">Services</a>
+          <a href="#blog">Actualités</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <a href="#">Installation</a>
+          <a href="#">Formation</a>
+          <a href="#">Maintenance</a>
+          <a href="#">Support technique</a>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p>226 Avenue Ahmed Tlili<br>Megrine, Ben Arous 2024</p>
+          <p><a href="tel:+21629368222">+216 29 368 222</a></p>
+          <p><a href="mailto:contact@bio-health.tn">contact@bio-health.tn</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 BIO HEALTH. Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
 
-<h2>Your Trusted Partner in Medical Equipment</h2>
-
-<p>Medical equipment and laboratory reagents</p>
-
-</section>
-
-<section id="about">
-
-<h2>About BIO HEALTH</h2>
-
-<p>
-
-BIO HEALTH supplies high-quality medical equipment and laboratory reagents for hospitals and laboratories in Tunisia.
-
-Location: Megrine – Ben Arous
-
-</p>
-
-</section>
-
-<section id="products">
-
-<h2>Medical Equipment Store</h2>
-
-<div class="product">
-
-<h3>STA Compact Max³</h3>
-
-<p>Coagulation analyzer designed for medium laboratories.</p>
-
-<p class="price">Price: 3500 TND</p>
-
-<button onclick="openViewer()">View in 3D</button>
-
-</div>
-
-<div class="product">
-
-<h3>Electronic Stethoscope</h3>
-
-<p>Digital stethoscope with sound amplification.</p>
-
-<p class="price">Price: 280 TND</p>
-
-</div>
-
-<div class="product">
-
-<h3>Vital Signs Monitor</h3>
-
-<p>Monitor for real-time patient vital signs.</p>
-
-<p class="price">Price: 950 TND</p>
-
-</div>
-
-</section>
-
-<section id="partners">
-
-<h2>Our Partners</h2>
-
-<div class="partners">
-
-<div>STAGO</div>
-
-<div>DISERA</div>
-
-<div>DIAGAST</div>
-
-<div>ALCOR</div>
-
-<div>SARSTEDT</div>
-
-</div>
-
-</section>
-
-<section id="viewer">
-
-<h2>3D Product Viewer</h2>
-
-<div id="container"></div>
-
-</section>
-
-<section id="contact">
-
-<h2>Contact Us</h2>
-
-<p>Address: Megrine 226 avenue Ahmed Tlili</p>
-
-<p>Phone: +216 29 368 222</p>
-
-<p>Email: contact@bio-health.tn</p>
-
-</section>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-
-<script src="script.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
